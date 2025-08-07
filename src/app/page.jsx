@@ -46,6 +46,18 @@ export default function MeuComponente() {
       <Link className={styles.button02} href="/props">
         Componente Props
       </Link>
+
+      <Link className={styles.button02} href="/toastify">
+        Toastify
+      </Link>
+
+      <Link className={styles.button02} href="/modal">
+        Modal
+      </Link>
+
+      <Link className={styles.button02} href="/axios">
+        Axios
+      </Link>
     </div>
   );
 }

@@ -1,0 +1,110 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    flex-direction: column;
+}
+
+.button {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.15);
+    transition: transform 0.12s, box-shadow 0.12s, filter 0.18s;
+    outline: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.25);
+    filter: brightness(1.08);
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: #fff;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    animation: modalIn 0.25s;
+}
+
+@keyframes modalIn {
+    from { transform: translateY(40px) scale(0.95); opacity: 0; }
+    to { transform: translateY(0) scale(1); opacity: 1; }
+}
+
+.title {
+    margin-bottom: 0.5rem;
+    color: #764ba2;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.content {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.closeButton {
+    background: linear-gradient(135deg, #ff5858 0%, #f09819 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.12s, box-shadow 0.12s, filter 0.18s;
+}
+.closeButton:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(255, 88, 88, 0.18);
+    filter: brightness(1.08);
+}
+
+.title1 {
+    color: #d7d7d7;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.description1 {
+    color: #f7f7f7;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}

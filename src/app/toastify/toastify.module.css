@@ -1,0 +1,112 @@
+.button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.12s, box-shadow 0.12s, filter 0.18s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    outline: none;
+}
+
+/* Success */
+.button {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+.button:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px rgba(67, 233, 123, 0.25);
+    filter: brightness(1.12);
+}
+
+/* Error */
+.button1 {
+    background: linear-gradient(135deg, #ff5858 0%, #f09819 100%);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.12s, box-shadow 0.12s, filter 0.18s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    outline: none;
+}
+.button1:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px rgba(255, 88, 88, 0.25);
+    filter: brightness(1.12);
+}
+
+/* Warning */
+.button2 {
+    background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+    color: #333;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.12s, box-shadow 0.12s, filter 0.18s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    outline: none;
+}
+.button2:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px rgba(247, 151, 30, 0.22);
+    filter: brightness(1.12);
+}
+
+/* Info */
+.button3 {
+    background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.12s, box-shadow 0.12s, filter 0.18s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    outline: none;
+}
+.button3:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px rgba(44, 130, 201, 0.22);
+    filter: brightness(1.12);
+    
+}
+
+/* Custom */
+.button4 {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.12s, box-shadow 0.12s, filter 0.18s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    outline: none;
+}
+.button4:hover {
+    transform: scale(1.07);
+    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.25);
+    filter: brightness(1.12);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
